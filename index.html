@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="keywords" content="HTML, CSS, JAVASCRIPT, Portfolio project, capstone project">
+    <meta name="description" content="This is a simple capstone project">
+    <meta name="robots" content="index, follow">
+    <link rel="shortcut icon" href="./profile_pic.jpg" type="image/x-icon">
+    <title>My Resume</title>
+    <style>
+      *{
+        font-family: sans-serif; 
+        box-sizing: border-box;
+      }
+      .summary{
+        line-height: 2; text-align: center; margin-left: auto; margin-right: auto;
+      }
+      img{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+      }
+      
+      li{
+        list-style: none; line-height: 2;
+      }
+      li::before{
+        content: "\00BB";
+      }
+      .work{
+        text-align: left;
+      }
+      footer{
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+      a{
+        text-decoration: none;
+      }
+      a:hover{
+        color: crimson;
+      }
+      .header{
+        background-color: rgba(0, 0, 0, 0.06);
+      }
+      .skills{
+        position: relative;
+      }
+      .skills h2 { 
+        /* background-color: rgba(0, 0, 0, 0.2); */
+        color: #ffff;
+        display: flex;
+        align-items: center;
+        font-size: 5em;
+        position: absolute;
+        transform: translate(100%, -50%);
+      }
+      .skills h2:nth-child(1) {
+        color: transparent;
+        -webkit-text-stroke: 2px #023704;
+      }
+      .skills h2:nth-child(2) {
+      color: #023704;
+      animation: animate 4s ease-in-out infinite;}
+      @keyframes animate {
+        0%,
+        100% {
+          clip-path: polygon(
+            0% 45%,
+            16% 44%,
+            33% 50%,
+            54% 60%,
+            70% 61%,
+            84% 59%,
+            100% 52%,
+            100% 100%,
+            0% 100%
+          );
+        }
+
+        50% {
+          clip-path: polygon(
+            0% 60%,
+            15% 65%,
+            34% 66%,
+            51% 62%,
+            67% 50%,
+            84% 45%,
+            100% 46%,
+            100% 100%,
+            0% 100%
+          );
+        }
+      }
+    </style>
+  </head>
+  <body><div class="header">
+    <h1 style="text-align: center; color: darkblue;">Ankit Pathak</h1>
+    <img src="./profile_pic.jpg" alt="My profile pic" width="120" />
+    <h2 style="text-align: center; color: crimson;">Summary</h2>
+    <p class="summary">Hi everyone, I am a <em>3rd year</em> undergraduate student, majoring in <strong><em>Applied Geology</em></strong>. Passionate about <strong>Web development, <em>UI/UX</em> designing, Graphic designing and video editing</strong>, <br />and trying to learn many more skills. I am a dedicated and hardworking individual, who believes in <em>excellence over chasing.</em></p><hr /></div>
+    <h2 style="color:darkmagenta;">Education</h2>
+    <ul class="education">
+      <li>Secondary & senior-secondary - Jesus & Mary Academy (12th in 2019)</li>
+      <li>Integrated Master of Science in Applied Geology - IIT Kharagpur (2020-2025)</li>
+    </ul><hr /> <div class="work">
+    <h2 style="color: darkgreen;">Work Experience</h2>
+    <ul>
+      <h3><li><u>Youth Leader - Unschool</u></li></h3>
+        <p>June 2022 - September 2022</p>
+        <ul style="list-style: circle;">
+          <li style="list-style: circle;">Managed events and workshops for unschool in college</li>
+          <li style="list-style: circle;">Helped to promote registrations for unschool in college groups</li>
+        </ul>
+      <h3><li><u>Campus Ambassador - Unacademy</u></li></h3>
+      <p>May 2022 - July 2022</p>
+      <ul type="circle">
+        <li style="list-style: circle;">Managed events and workshops for unacademy in college</li>
+        <li style="list-style: circle;">Promoted unacademy in college groups</li>
+      </ul>
+    </ul></div>
+    <hr /><div class="skills">
+    <h2>Skills</h2>
+    <h2>Skills</h2>
+    </div>
+    <ul style="text-align: center;">
+      <li>HTML ⭐⭐⭐⭐</li>
+      <li>CSS ⭐⭐⭐</li>
+      <li>Photoshop ⭐⭐⭐⭐⭐</li>
+      <li>Video Editing ⭐⭐⭐⭐⭐</li>
+    </ul> <hr /><div style="text-align:left;">
+    <h2 style="color: crimson;">Awards and certifications</h2>
+    <ul>
+      <li>Web development Bootcamp 2023 by Angela Yu - Udemy</li>
+    </ul></div><hr /><div style="text-align: left;">
+    <h2 style="color: darkmagenta;">Other</h2>
+    <ul>
+      <li><a href="./about.html" target="_blank" rel="">My Hobbies</a> </li>
+      <li><a href="./contact.html" target="_blank">Contact me</a></li>
+    </ul></div>
+    <footer style="text-align: center;">
+      <p>
+        &copy; Ankit Pathak. All rights reserved.
+      </p>
+    </footer>
+  </body>
+</html>
